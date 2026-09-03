@@ -471,7 +471,7 @@ button{font-family:inherit;cursor:pointer;border:none;background:none}
 .mobile-nav-btn{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;font-size:10px;font-weight:700;color:var(--text-light);transition:var(--transition)}
 .mobile-nav-btn:active{background:var(--bg)}
 .mobile-nav-btn.nav-call{color:var(--royal-blue)}
-.mobile-nav-btn.nav-whatsapp{background:linear-gradient(135deg,var(--whatsapp),var(--whatsapp-dark));color:var(--white);margin:8px;border-radius:var(--radius);flex-direction:row;gap:6px;font-size:13px}
+.mobile-nav-btn.nav-whatsapp{padding:10px;background:linear-gradient(135deg,var(--whatsapp),var(--whatsapp-dark));color:var(--white);margin:8px;border-radius:var(--radius);flex-direction:row;gap:6px;font-size:13px}
 .mobile-nav-btn.nav-book{color:var(--gold-dark)}
 .mobile-nav-btn .nav-icon{font-size:20px;line-height:1}
 
