@@ -594,3 +594,28 @@ select.form-control{appearance:none;background-image:url("data:image/svg+xml,%3C
   .navbar,.header,.mobile-bottom-nav,.float-btn,.modal-overlay{display:none !important}
   body{padding-bottom:0}
 }
+
+/* Lappy Friend — additions for the Setup & Maintenance redesign. Load AFTER style.css */
+.i{width:1em;height:1em;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0;vertical-align:-0.125em}
+.i-fill{fill:currentColor;stroke:none}
+[hidden]{display:none !important}
+:focus-visible{outline:3px solid var(--sky-blue);outline-offset:2px}
+.hero-points{list-style:none;display:flex;flex-direction:column;gap:10px;margin:0 0 30px}
+.hero-points li{display:flex;align-items:center;gap:10px;color:rgba(255,255,255,.88);font-size:clamp(15px,1.8vw,18px);font-weight:500}
+.hero-points .i{color:var(--gold);font-size:20px}
+.trust-row{display:flex;align-items:center;gap:14px;margin-bottom:26px;color:rgba(255,255,255,.8);font-size:13px;font-weight:600}
+.avatar-stack{display:flex}
+.avatar-stack span{width:38px;height:38px;border-radius:50%;border:2px solid var(--navy);margin-left:-10px;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:800;color:#fff;background:linear-gradient(135deg,var(--royal-blue),var(--sky-blue))}
+.avatar-stack span:first-child{margin-left:0}
+.avatar-stack span:nth-child(even){background:linear-gradient(135deg,var(--gold),var(--gold-dark))}
+.why-lead{color:rgba(255,255,255,.72);font-size:15px;line-height:1.75;margin-bottom:26px}
+.service-body h3{font-size:17px}
+.form-ok{text-align:center;padding:24px 8px}
+.form-ok h4{font-size:20px;font-weight:900;color:var(--navy);margin-bottom:8px}
+.form-ok p{color:var(--text-light);font-size:14px}
+.nav-phone .i,.btn-glass-hero .i,.footer-contact .i{font-size:16px}
+.footer-contact .i{color:var(--gold)}
+.cta-trust .i{color:var(--gold);font-size:16px}
+.process-icon-wrap .i{font-size:34px;color:var(--royal-blue)}
+.why-feature-icon .i{font-size:22px}
+.btn .i,.btn-pill-cta .i,.btn-primary-hero .i,.service-link .i{font-size:16px}
